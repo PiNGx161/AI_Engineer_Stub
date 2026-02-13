@@ -222,10 +222,12 @@ LIMIT :top_k
 - Docker + Docker Compose v2
 
 ### One-command startup
-1. **Configure environment**:
+1. **Configure environment** (Optional):
+   The system will automatically use defaults from `.env.example` if no `.env` file exists.
+   To customize (e.g., adding OpenAI key), create a `.env` file:
    ```bash
    cp .env.example .env
-   # (Optional) Edit .env to add your OpenAI API Key for real embeddings
+   # Edit .env to add your OpenAI API Key for real embeddings
    ```
 
 2. **Start system**:
