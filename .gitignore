@@ -1,0 +1,23 @@
+# Environment variables
+.env
+
+# Docker volumes
+postgres_data/
+redis_data/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editor / OS
+.DS_Store
+.vscode/
+.idea/
+*.swp
